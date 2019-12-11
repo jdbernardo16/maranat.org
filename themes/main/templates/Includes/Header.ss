@@ -5,7 +5,7 @@
 	</div>
 </div>
 <% end_if %>
-<% if ClassName == 'Page' %>
+<%-- <% if ClassName == 'Page' %>
 <header class="admin-nav">
 	<a href="$BaseHref">
 		<% loop HeaderFooter %>
@@ -15,4 +15,4 @@
 		<% end_loop %>
 	</a>
 </header>
-<% end_if %>
+<% end_if %> --%>

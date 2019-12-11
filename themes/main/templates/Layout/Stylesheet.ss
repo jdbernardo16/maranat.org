@@ -220,22 +220,7 @@
 				</div>
 				<div class="inlineBlock-parent">
 					<div>
-						<a href="about-us" class="btn white align-c">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p class="btn-text">Read more</p>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div>
-						<a href="about-us" class="btn gradient align-c">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p class="btn-text">Read more</p>
-								</div>
-							</div>
-						</a>
+						<a href="#" class="btn align-c">Read more</a>
 					</div>
 				</div>
 			</div>

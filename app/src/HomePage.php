@@ -75,11 +75,11 @@ namespace {
 			));
 
 			# SET FIELD DESCRIPTION 
-			// $uploadf1->setDescription('Max file size: 2MB | Dimension: 1366px x 768px');
+			// $uploadf->setDescription('Max file size: 2MB | Dimension: 1366px x 768px');
 			$desc->setDescription('Sample format: email@sample.com, email_2@sample.com');
 			
 			# Set destination path for the uploaded images.
-			// $uploadf1->setFolderName('homepage/frame-1');
+			// $uploadf->setFolderName('homepage/frame-1');
 
 			return $fields;
 		}

@@ -56,13 +56,31 @@
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-
+        <% if ClassName != 'Stylesheet' %>
         <% include Header %>
+        <% end_if %>
 
         <div class="main">
+            <% if ClassName == 'Page' %>
+            <div class="frm-bckgrnds size-cover" style="background: #f9f9f9"></div>
+            <% end_if %>
 
-            $Form
             $Layout
+
+            <% if $Form %>
+            <div class="page-loginCon">
+                <div class="vertical-parent">
+                    <div class="vertical-align">
+                        <div class="login-frm__col">
+                            <div class="login-frm__text">
+                                <p>Login</p>
+                            </div>
+                            $Form
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <% end_if %>
 
             <% if ClassName == 'SilverStripe\ErrorPage\ErrorPage' %>
             <% if $Content %>
@@ -78,7 +96,9 @@
 
         </div>
 
+        <% if ClassName != 'Stylesheet' %>
         <% include Footer %>
+        <% end_if %>
 
         <!-- !!! -->
         <script type="text/javascript">
