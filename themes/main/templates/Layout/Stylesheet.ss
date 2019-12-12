@@ -129,7 +129,7 @@
 					</div>
 					<div class="frm-desc">
 						<p>Font 1</p>
-						<p class="color--gray">36px</p>
+						<p class="color--gray">62px</p>
 					</div>
 				</div>
 				<div class="ss-frm__tp-col">
@@ -142,7 +142,7 @@
 					</div>
 					<div class="frm-desc">
 						<p>Font 1</p>
-						<p class="color--gray">24px</p>
+						<p class="color--gray">48px</p>
 					</div>
 				</div>
 				<div class="ss-frm__tp-col">
@@ -155,7 +155,7 @@
 					</div>
 					<div class="frm-desc">
 						<p>Font 1</p>
-						<p class="color--gray">18px</p>
+						<p class="color--gray">40px</p>
 					</div>
 				</div>
 				<div class="ss-frm__tp-col">
@@ -168,7 +168,33 @@
 					</div>
 					<div class="frm-desc">
 						<p>Font 1</p>
-						<p class="color--gray">16px</p>
+						<p class="color--gray">32px</p>
+					</div>
+				</div>
+				<div class="ss-frm__tp-col">
+					<div class="frm-title mb-0">
+						<div class="vertical-parent">
+							<div class="vertical-align align-b">
+								<h5>Heading 5</h5>
+							</div>
+						</div>
+					</div>
+					<div class="frm-desc">
+						<p>Font 1</p>
+						<p class="color--gray">25px</p>
+					</div>
+				</div>
+				<div class="ss-frm__tp-col">
+					<div class="frm-title mb-0">
+						<div class="vertical-parent">
+							<div class="vertical-align align-b">
+								<h6>Heading 6</h6>
+							</div>
+						</div>
+					</div>
+					<div class="frm-desc">
+						<p>Font 1</p>
+						<p class="color--gray">20px</p>
 					</div>
 				</div>
 				<div class="ss-frm__tp-col">
@@ -182,6 +208,19 @@
 					<div class="frm-desc">
 						<p>Font 1</p>
 						<p class="color--gray">16px</p>
+					</div>
+				</div>
+				<div class="ss-frm__tp-col">
+					<div class="frm-title mb-0">
+						<div class="vertical-parent">
+							<div class="vertical-align align-b">
+								<small>Small</small>
+							</div>
+						</div>
+					</div>
+					<div class="frm-desc">
+						<p>Font 1</p>
+						<p class="color--gray">13px</p>
 					</div>
 				</div>
 				

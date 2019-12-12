@@ -31,14 +31,16 @@ $font--2: '';
  * FONTS SIZE
  * --
  */
-$font-size-default: 14px;		//Default
-$font-size-largest: 55px;		//H1, Banner Text
-$font-size-larger: 38px;		//H2, Inner Banner Title
-$font-size-large: 28px;			//H3, Frame Subtitle
-$font-size-medium: 18px;		//H4, Banner Subtitle
-$font-size-small: 20px;			//H5
-$font-size-smaller: 12px;		//H6 | Small, Body Subtext, Button, Input
-$font-size-smallest: 10px;		//Small | Footer
+$font-size-default: 1em;			//16px | Default
+
+$font-size-largest: 3.815em;		//61.04px | H1, Banner Text
+$font-size-larger: 3.052em;			//48.83px | H2, Inner Banner Title
+$font-size-large: 2.441em;			//39.06px | H3, Frame Subtitle
+$font-size-medium: 1.953em;			//31.25px | H4, Banner Subtitle
+$font-size-small: 1.563em;			//25px | H5
+$font-size-smaller: 1.25em;			//20px | H6 | Small, Body Subtext, Button, Input
+
+$font-size-smallest: 0.8em;			//12.80px | Small | Footer
 
 
 /** 
