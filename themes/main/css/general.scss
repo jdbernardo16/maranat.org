@@ -138,23 +138,23 @@ button {
 h1, h2, h3, h4, h5, h6, p, span, a, small, strong, i, li {
 
 	&.type-1 {
-		color: $color-primary1;
+		color: $color--primary1;
 	}
 
 	&.type-2 {
-		color: $color-primary2;
+		color: $color--primary2;
 	}
 
 	&.type-white {
-		color: $color-white;
+		color: $color--white;
 	}
 
 	&.type-gray {
-		color: $color-gray;
+		color: $color--gray;
 	}
 
 	&.type-blue {
-		color: $color-blue;
+		color: $color--blue;
 	}
 
 	&.font-1 {
