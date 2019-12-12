@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <meta name="description" content="$MetaDescription">
-        <% loop HeaderFooter %>    
+        <% loop HeaderFooter %>
         <link rel="shortcut icon" href="$Favicon.Url" type="image/x-icon" />
         <% end_loop %>
         <% loop HeaderFooter %>
@@ -20,10 +20,15 @@
         <meta property="og:site_name" content="$SiteConfig.Title">
         <meta property="og:type" content="website">
 
-        <% loop HeaderFooter %>   
+        <% loop HeaderFooter %>
         <meta name="keywords" content="$SEO">
         <meta name="description" content="$Description">
         <% end_loop %>
+
+        <% if $ExtraMeta %>
+            $ExtraMeta
+        <% end_if %>
+
         
         <!-- Ionicon -->
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
