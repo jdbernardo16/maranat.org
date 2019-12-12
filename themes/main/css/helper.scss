@@ -43,6 +43,7 @@
 .align-l { text-align: left; }
 .align-c { text-align: center; }
 .align-r { text-align: right; }
+.align-j { text-align: justify; }
 
 /*
 * Margin
@@ -74,6 +75,8 @@
 .s-margin-tb { margin: 10px 0; }
 .m-margin-tb { margin: 20px 0; }
 .l-margin-tb { margin: 40px 0; }
+
+.mb-0 { margin-bottom: 0; }
 
 /*
 * Width

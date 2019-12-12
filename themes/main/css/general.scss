@@ -3,9 +3,6 @@
 */
 html{
 	scroll-behavior: smooth;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-rendering: optimizeLegibility;
 	overscroll-behavior: contain;
 }
 
@@ -14,8 +11,12 @@ html{
 */
 body {
 	overflow-x: hidden;
+	overscroll-behavior: contain;
 	padding-top: constant(safe-area-inset-top);
 	padding-top: env(safe-area-inset-top);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
 }
 
 /*
@@ -34,7 +35,7 @@ body {
 .clr--primary1 { color: $color--primary1; }
 .clr--blue { color: $color--blue; }
 .clr--gray { color: $color--gray; }
-.clr--white { color: #fff; }
+.clr--white { color: $color--white; }
 
 .bg--primary1 { background: $color--primary1; }
 .bg--blue { background: $color--blue; }
@@ -46,44 +47,130 @@ body {
 * Typography
 * frm : frame
 */
-.frm-title {
-	margin-bottom: 40px;
 
-	&.mb-0 { margin-bottom: 0; }
+/*****
+** FONTS
+*****/
+body {
+	font-family: $font--1;
+	font-size: $font-size-default;
+}
 
-	* {
-		font-family: $font--1;
-	}
+//Banner Title
+h1 {
+	font-size: $font-size-largest;
 
-	h1 {
-		font-size: 36px;
-	}
-
-	h2 {
-		font-size: 24px;
-	}
-
-	h3 {
-		font-size: 18px;
-	}
-
-	h4 {
-		font-size: 16px;
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
 	}
 }
 
+//Frame Title
+h2 {
+	font-size: $font-size-larger;
+
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+h3 {
+	font-size: $font-size-large;
+
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+h4 {
+	font-size: $font-size-medium;
+
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+h5 {
+	font-size: $font-size-small;
+
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+h6 {
+	font-size: $font-size-smaller;
+
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+p {
+	font-size: $font-size-default;
+
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+small {
+	font-size: $font-size-smallest;
+
+	a, span {
+		font-size: inherit;
+		font-family: inherit;
+	}
+}
+
+button {
+	font-size: $font-size-smaller;
+}
+
+//Headers | Text
+h1, h2, h3, h4, h5, h6, p, span, a, small, strong, i, li {
+
+	&.type-1 {
+		color: $color-primary1;
+	}
+
+	&.type-2 {
+		color: $color-primary2;
+	}
+
+	&.type-white {
+		color: $color-white;
+	}
+
+	&.type-gray {
+		color: $color-gray;
+	}
+
+	&.type-blue {
+		color: $color-blue;
+	}
+
+	&.font-1 {
+		font-family: $font--1;
+	}
+
+	&.font-2 {
+		font-family: $font--1;
+	}
+}
+
+.frm-title {
+	margin-bottom: 40px;
+}
+
 .frm-desc {
-
-	* {
-		font-family: $font--2;
-		font-size: 16px;
-		line-height: 26px;
-	}
-
-	&.bold *,
-	.bold {
-		font-weight: bold;
-	}
 
 	ul {
 		padding-left: 20px;
@@ -124,13 +211,6 @@ body {
 		}
 	}
 
-	strong {
-		font-family: 'Gotham Pro Bold';
-		font-weight: normal;
-
-		em { font-family: 'Gotham Pro Bold'; }
-	}
-
 	.upcase,
 	&.upcase * { text-transform: uppercase; }
 
@@ -157,49 +237,6 @@ body {
 	table {
 		max-width: 100% !important;
 	}
-
-	.font-12 { font-size: 12px; }
-
-	h1 {
-		font-size: 36px;
-		font-family: $font--1;
-		line-height: normal;
-	}
-
-	h2 {
-		font-size: 24px;
-		font-family: $font--1;
-		line-height: normal;
-	}
-
-	h3 {
-		font-size: 18px;
-		font-family: $font--1;
-		line-height: normal;
-	}
-
-	h4 {
-		font-size: 16px;
-		font-family: $font--1;
-		line-height: normal;
-	}
-
-	h5 {
-		font-size: 14px;
-		font-family: $font--1;
-		line-height: normal;
-	}
-
-	h6 {
-		font-size: 12px;
-		font-family: $font--1;
-		line-height: normal;
-	}
-
-	.text-right { text-align: right; }
-	.text-center { text-align: center; }
-	.text-left { text-align: left; }
-	.text-justify { text-align: justify; }
 }
 
 /*
