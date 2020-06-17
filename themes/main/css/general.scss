@@ -15,8 +15,9 @@ body {
 	padding-top: constant(safe-area-inset-top);
 	padding-top: env(safe-area-inset-top);
 	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	-moz-osx-font-smoothing: scale;
 	text-rendering: optimizeLegibility;
+	color: $color--black;
 }
 
 /*
@@ -33,13 +34,15 @@ body {
 * bg : uses for background colors
 */
 .clr--primary1 { color: $color--primary1; }
-.clr--blue { color: $color--blue; }
-.clr--gray { color: $color--gray; }
+.clr--primary2 { color: $color--primary2; }
+.clr--black { color: $color--black; }
+.clr--light-gray { color: $color--light-gray; }
 .clr--white { color: $color--white; }
 
 .bg--primary1 { background: $color--primary1; }
-.bg--blue { background: $color--blue; }
-.bg--gray { background: $color--gray; }
+.bg--primary2 { background: $color--primary2; }
+.bg--black { background: $color--black; }
+.bg--light-gray { background: $color--light-gray; }
 .bg--white { background: $color--white; }
 
 
@@ -149,12 +152,12 @@ h1, h2, h3, h4, h5, h6, p, span, a, small, strong, i, li {
 		color: $color--white;
 	}
 
-	&.type-gray {
-		color: $color--gray;
+	&.type-light-gray {
+		color: $color--light-gray;
 	}
 
-	&.type-blue {
-		color: $color--blue;
+	&.type-black {
+		color: $color--black;
 	}
 
 	&.font-1 {
@@ -623,6 +626,7 @@ label.error {
 	.frm-title * { 
 		font-weight: bold; 
 		font-size: 48px;
+		font-family: $font--1;
 	}
 }
 
