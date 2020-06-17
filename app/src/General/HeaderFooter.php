@@ -3,8 +3,6 @@
 namespace {
 	use SilverStripe\CMS\Model\SiteTree;
 
-	use Page;  
-	use PageController;
 	use SilverStripe\AssetAdmin\Forms\UploadField;
 	use SilverStripe\Assets\Image;
 	use SilverStripe\Forms\TextField;

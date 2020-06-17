@@ -32,11 +32,11 @@ namespace {
 
 	use SilverStripe\Control\HTTPRequest;
 
-	class HomePage extends Page {
+	class SearchPage extends Page {
 
 		private static $db = [
 		
-			'EmailRecipient' => 'Text',
+			// 'EmailRecipient' => 'Text',
 		];
 
 		private static $has_one = [
@@ -50,10 +50,10 @@ namespace {
 		private static $allowed_children = "none";
 
 		private static $defaults = array(
-			'PageName' => 'Home Page',
-			'MenuTitle' => 'Home',
-			'ShowInMenus' => true,
-			'ShowInSearch' => true,
+			'PageName' => 'Search Page',
+			'MenuTitle' => 'Search',
+			'ShowInMenus' => false,
+			'ShowInSearch' => false,
 		);
 
 		public function getCMSFields() {
@@ -67,22 +67,22 @@ namespace {
 			* EMAIL RECEIPIENT : Text Field
 			* - Flexibility purpose; to change email with ease.
 			*/
-			$fields->addFieldsToTab('Root.Email Recipient', array(
-				$desc = new TextField('EmailRecipient', 'Email Address'),
-			));
+			// $fields->addFieldsToTab('Root.Email Recipient', array(
+			// 	$desc = new TextField('EmailRecipient', 'Email Address'),
+			// ));
 
 			# SET FIELD DESCRIPTION 
 			// $uploadf->setDescription('Max file size: 2MB | Dimension: 1366px x 768px');
-			$desc->setDescription('Sample format: email@sample.com, email_2@sample.com');
+			// $desc->setDescription('Sample format: email@sample.com, email_2@sample.com');
 			
 			# Set destination path for the uploaded images.
-			// $uploadf->setFolderName('homepage/frame-1');
+			// $uploadf->setFolderName('Searchpage/frame-1');
 
 			return $fields;
 		}
 	}
 
-	class HomePageController extends PageController {
+	class SearchPageController extends PageController {
 		
 	}
 }
