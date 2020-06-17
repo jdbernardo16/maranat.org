@@ -3,9 +3,6 @@
 namespace {
 	use SilverStripe\CMS\Model\SiteTree;
 
-	use Page;  
-	use PageController;
-
 	use SilverStripe\Forms\TabSet;
 	use SilverStripe\Forms\Tab;
 	use SilverStripe\Forms\TextField;

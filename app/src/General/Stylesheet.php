@@ -3,9 +3,6 @@
 namespace {
 	use SilverStripe\CMS\Model\SiteTree;
 
-	use Page;  
-	use PageController;
-
 	class Stylesheet extends Page {
 
 		private static $defaults = array(
