@@ -1,8 +1,5 @@
-@import '_variables';
-@import 'reset';
-@import 'helper';
-@import 'mixins';
-@import 'general';
-@import 'styles';
-@import 'mobile';
-@import "~toastr/toastr";
+@import '_abstract.scss';
+@import '_base.scss';
+@import '_components.scss';
+@import '_vendor.scss';
+@import '_layout.scss';

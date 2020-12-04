@@ -1,0 +1,17 @@
+/*
+* Contact Us Page
+* cnt : contact us
+*/
+
+.g-recaptcha > div {
+	margin: auto;
+}
+
+
+@media screen and (max-width: 320px) {
+
+	.recaptcha-hldr {
+		margin: 0 -2vw;
+	}
+
+}

@@ -1,0 +1,70 @@
+/** 
+ * VARIABLES
+ * --
+ * Set the default values according to your preference.
+**/
+
+// Colors | Add description to where it should be place
+$color--primary: #F5842A;       // Orange
+
+$color--white: #FFFFFF;         // 
+// $color--gray--100: ;         // 
+// $color--gray--200: ;         // 
+// $color--gray--300: ;         // 
+$color--gray--400: #C4C4C4;     // 
+$color--gray--500: #9C9C9C ;    // 
+// $color--gray--600: ;         // 
+$color--gray--700: #464646;     // 
+// $color--gray--800: ;         // 
+// $color--gray--900: ;         // 
+$color--black: #191919;         // 
+
+
+// Fonts
+$font--main: 'Work Sans', sans-serif;
+
+
+// Font Sizes | Add description to where it should be place
+$font-size-default: 1rem;           //16px | Default
+
+$font-size-largest: 3rem;           //48px | H1, First Title
+$font-size-larger: 2.25rem;         //36px | H2, Frame Title
+$font-size-large: 1.5625rem;        //25px | H3, Label Title
+$font-size-medium: 1.25rem;         //20px | H4, Label Title
+$font-size-small: 1rem;             //16px | H5,
+$font-size-smaller: 0.875rem;       //14px | H6, Buttons, Navigation
+$font-size-smallest: 0.8125rem;     //13px | Small, Footer Title
+$font-size-12: 0.75rem;             //12px | Footer Text
+$font-size-10: 0.625rem;            //10px | Subtext
+
+
+//Border-Radius
+$border-radius-default: 20px;  //
+$border-radius-15: 15px;       //
+$border-radius-10: 10px;       //
+
+
+//z-index notes
+//0-5       - Background elements
+//6-10      - Midground elements
+//11-15     - Foreground elements
+//90        - Elements that includes Header
+//100       - Header
+//120       - Header Side Nav
+//150       - Modals | Pop Up 
+
+/** 
+ * PADDING
+ * --
+ */
+$frm-padding: 70px 0; // Padding for top & bottom
+
+/** 
+ * Frame Background
+ * --
+ */
+$frame-bg--pos__t: top center;
+$frame-bg--pos__r: right center;
+$frame-bg--pos__b: bottom center;
+$frame-bg--pos__l: left center;
+$frame-bg--pos__c: center center;

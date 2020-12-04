@@ -1,0 +1,23 @@
+/** 
+ * COLOR
+ * --
+ * Set the default values according to your preference.
+**/
+// Color Text
+.clr--primary { color: $color--primary; }
+
+.clr--white { color: $color--white; }
+.clr--gray--400 { color: $color--gray--400; }
+.clr--gray--500 { color: $color--gray--500; }
+.clr--gray--700 { color: $color--gray--700; }
+.clr--black { color: $color--black; }
+
+
+// Background Color
+.bg--primary { background: $color--primary; }
+
+.bg--white { background: $color--white; }
+.bg--gray--400 { background: $color--gray--400; }
+.bg--gray--500 { background: $color--gray--500; }
+.bg--gray--700 { background: $color--gray--700; }	
+.bg--black { background: $color--black; }

@@ -1,0 +1,293 @@
+@media screen and (max-width: 1024px) {
+
+	.frm-title {
+		font-size: $font-size-larger
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+
+	.hm-frame1 {
+		.hm-frame1__slider-hldr {
+			width: 60%;
+		}
+	}
+
+	.hm-frame2 {
+		.width--80 { width: 90%; }
+	}
+
+	.hm-frame3 {
+		.hm-frame3__cntnr {
+			.hm-frame3__col {
+				&:last-child {
+					padding-left: 5%;
+				}
+			}
+
+			.hm-frame3__slider-hldr {
+				.hm-frame3__slider {
+					width: 90%;
+					padding: 3rem;
+				}
+			}
+		}
+	}
+
+	.hm-frame5 {
+		.width--85 { width: 90%; }
+		.hm-frame5__cntnr {
+
+			.hm-frame5__col {
+				&:last-child {
+					padding-left: 5%;
+				}
+			}
+		}
+	}
+
+	.hm-frame6 {
+		.width--80 { width: 90%; }
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+	.cks-frm {
+		padding: 1.3rem;
+
+		.cks-btn-hldr {
+			width: 100%;
+			text-align: center;
+
+			.align-r {
+				margin-right: auto;
+			}
+		}
+
+		.cks-desc {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+	}
+
+	.hm-frame1 {
+		.hm-frame1__slider-hldr {
+			width: 100%;
+		}
+	}
+
+	.hm-frame2 {
+		.hm-frame2__cntnr {
+			display: flex;
+			justify-content: center;
+
+			.hm-frame2__card {
+				width: calc(100% / 2);
+				margin-bottom: 40px;
+			}
+		}
+	}
+
+	.mbl-show { display: block; }
+	.dsktp-show { display: none !important; }
+
+	.hm-frame3 {
+		.hm-frame3__cntnr {
+			.hm-frame3__col {
+
+				&:first-child {
+					width: 100%;
+				}
+
+				&:last-child {
+					width: 100%;
+					padding-left: 0%;
+				}
+			}
+
+			.hm-frame3__slider-hldr {
+				.hm-frame3__slider {
+					width: 100%;
+					padding: 3rem;
+				}
+
+				.btn-next,
+				.btn-prev {
+					position: absolute;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+
+				.btn-prev { left: -2%; }
+				.btn-next { right: -2%; }
+			}
+		}
+	}
+
+	.hm-frame4 {
+		.hm-frame4__overlay { display: none; }
+		.hm-frame4__slide {
+			width: 80%;
+		}
+	}
+
+	.hm-frame5 {
+		.width--85 { width: 90%; }
+		.hm-frame5__cntnr {
+
+			.hm-frame5__col {
+				width: 100%;
+				order: 2;
+
+				&:last-child {
+					order: 1;
+					padding-left: 0%;
+					margin-bottom: 40px;
+
+					.hm-frame5__title { text-align: center; }
+				}
+			}
+		}
+	}
+
+	.hm-frame6 {
+		.hm-frame6__title { display: none; }
+	}
+
+	.our-customers {
+		.cstmr-slider {
+			padding-right: 0;
+			margin-bottom: 2rem;
+
+			.cstmr-col {
+				width: 100%;
+				order: 1 !important;
+
+				&:first-child {
+					order: 2 !important;
+					padding-right: 0;
+				}
+
+				&:last-child {
+					width: 80%;
+					margin: 0 auto 40px;
+				}
+			}
+
+			&:nth-child(2n-1) {
+
+				.cstmr-col {
+
+					&:first-child {
+						order: 2 !important;
+						padding-left: 0;
+						padding-right: 0;
+					}
+
+					&:last-child {
+						order: 1 !important;
+					}
+				}
+			}
+		}
+	}
+
+	.abt-frame2 {
+		.justify--between  { 
+			text-align: center;
+			justify-content: center; 
+		}
+
+		.abt-frame2__row {
+			.abt-frame2__card {
+				width: calc(100% / 2);
+				margin-bottom: 3rem;
+			}
+		}
+	}
+}
+
+
+@media screen and (max-width: 568px) {
+
+	.hm-frame1 {
+		.hm-frame1__slider-hldr {
+			width: 100%;
+		}
+	}
+
+	.hm-frame2 {
+		.hm-frame2__cntnr {
+			display: flex;
+			justify-content: center;
+
+			.hm-frame2__card {
+				width: 90%;
+
+				.card { display: block; }
+			}
+		}
+	}
+
+	.hm-frame4 {
+		.hm-frame4__slide {
+			.card { height: 400px; }
+		}
+	}
+
+	.our-customers {
+		.cstmr-slider {
+			.cstmr-col {
+				&:last-child {
+					width: 90%;
+				}
+			}
+		}
+	}
+
+	.abt-frame2 {
+		.abt-frame2__row {
+			.abt-frame2__card {
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 468px) {
+
+	.hm-frame4 {
+		.btn-prev { left: 2%; }
+		.btn-next { right: 2%; }
+
+		.hm-frame4__slide {
+			.card { height: 340px; }
+		}
+	}
+
+	.our-customers {
+
+		.cstmr-slider {
+			.cstmr-col {
+				&:last-child {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 378px) {
+
+	.hm-frame4 {
+		.hm-frame4__slide {
+			.card { 
+				padding: 1rem;
+				height: 300px; 
+			}
+		}
+	}
+}

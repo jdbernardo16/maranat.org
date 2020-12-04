@@ -1,265 +1,232 @@
 <section class="frm-cntnr ss-frm">
-	<div class="frm-bckgrnds size-cover bring-back" style="background: #f9f9f9;"></div>
-	<div class="ss-frm__header">
-		<div class="frm-cntnr width--90">
-			<div class="frm-title mb-0">
-				<h1>STYLESHEET</h1>
+	<div class="ss-frm__cntnr">
+		<div class="ss-frm__left">
+			<div class="ss-frm__header">
+				<div class="vertical-parent">
+					<div class="vertical-align">
+						<div class="frm-title ss-frm__title mb-0">
+							<img src="$ThemeDir/images/praxxys-logo.png" alt="company_logo">
+						</div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</div>
-	<div class="frm-cntnr width--90 frm-padding">
-		<div class="inlineBlock-parent">
-			<div class="ss-frm__col align-t">
-				<div class="frm-title ss-frm__title">
-					<p>Color Palette</p>
+			<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+				<div class="nav-link active" id="colors-tab">
+					<p>Color</p>
 				</div>
-				<div class="frm-desc bold s-margin-b">
-					<p>PRIMARY COLORS</p>
-				</div>
-				<div class="inlineBlock-parent">
-					<div class="ss-frm__paletteHolder frm-desc">
-						<div class="ss-frm__palette bg--1">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p>R255</p>
-									<p>G255</p>
-									<p>B255</p>
-								</div>
-							</div>
-						</div>
-						<p class="bold">Color 1</p>
-						<p>#dddddd</p>
-					</div>
-					<div class="ss-frm__paletteHolder frm-desc">
-						<div class="ss-frm__palette bg--1">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p>R255</p>
-									<p>G255</p>
-									<p>B255</p>
-								</div>
-							</div>
-						</div>
-						<p class="bold">Color 1</p>
-						<p>#dddddd</p>
-					</div>
-					<div class="ss-frm__paletteHolder frm-desc">
-						<div class="ss-frm__palette bg--1">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p>R255</p>
-									<p>G255</p>
-									<p>B255</p>
-								</div>
-							</div>
-						</div>
-						<p class="bold">Color 1</p>
-						<p>#dddddd</p>
-					</div>
-					<div class="ss-frm__paletteHolder frm-desc">
-						<div class="ss-frm__palette bg--1">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p>R255</p>
-									<p>G255</p>
-									<p>B255</p>
-								</div>
-							</div>
-						</div>
-						<p class="bold">Color 1</p>
-						<p>#dddddd</p>
-					</div>
-				</div>
-				<div class="frm-desc bold s-margin-tb">
-					<p>SECONDARY COLORS</p>
-				</div>
-				<div class="inlineBlock-parent">
-					<div class="ss-frm__paletteHolder frm-desc">
-						<div class="ss-frm__palette bg--1">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p>R255</p>
-									<p>G255</p>
-									<p>B255</p>
-								</div>
-							</div>
-						</div>
-						<p class="bold">Color 1</p>
-						<p>#dddddd</p>
-					</div>
-					<div class="ss-frm__paletteHolder frm-desc">
-						<div class="ss-frm__palette bg--1">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p>R255</p>
-									<p>G255</p>
-									<p>B255</p>
-								</div>
-							</div>
-						</div>
-						<p class="bold">Color 1</p>
-						<p>#dddddd</p>
-					</div>
-					<div class="ss-frm__paletteHolder frm-desc">
-						<div class="ss-frm__palette bg--1">
-							<div class="vertical-parent">
-								<div class="vertical-align">
-									<p>R255</p>
-									<p>G255</p>
-									<p>B255</p>
-								</div>
-							</div>
-						</div>
-						<p class="bold">Color 1</p>
-						<p>#dddddd</p>
-					</div>
-				</div>	
-			</div
-			><div class="ss-frm__col align-t">
-				<div class="frm-title ss-frm__title">
+				<div class="nav-link" id="typography-tab">
 					<p>Typography</p>
 				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-title mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<h1>Heading 1</h1>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">62px</p>
-					</div>
-				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-title mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<h2>Heading 2</h2>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">48px</p>
-					</div>
-				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-title mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<h3>Heading 3</h3>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">40px</p>
-					</div>
-				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-title mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<h4>Heading 4</h4>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">32px</p>
-					</div>
-				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-title mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<h5>Heading 5</h5>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">25px</p>
-					</div>
-				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-title mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<h6>Heading 6</h6>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">20px</p>
-					</div>
-				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-desc mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<p>Paragraph</p>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">16px</p>
-					</div>
-				</div>
-				<div class="ss-frm__tp-col">
-					<div class="frm-title mb-0">
-						<div class="vertical-parent">
-							<div class="vertical-align align-b">
-								<small>Small</small>
-							</div>
-						</div>
-					</div>
-					<div class="frm-desc">
-						<p>Font 1</p>
-						<p class="color--gray">13px</p>
-					</div>
-				</div>
-				
-			</div
-			><div class="ss-frm__col align-t">
-				<div class="frm-title ss-frm__title">
+				<div class="nav-link" id="forms-tab">
 					<p>Forms</p>
 				</div>
-				<form class="frm-form__holder">
-					<div class="frm-form__row">
-						<input type="text" name="name" class="frm-form__input" placeholder="Full Name" required="">
-					</div>
-					<div class="frm-form__row">
-						<div class="frm-select">
-							<select>
-								<option>Select</option>
-							</select>
+				<div class="nav-link" id="buttons-tab">
+					<p>Buttons</p>
+				</div>
+				<div class="nav-link" id="cards-tab">
+					<p><a href="#cards">Cards</a></p>					
+				</div>
+			</div>
+		</div>
+		<div class="ss-frm__right">
+			<div class="ss-frm__header">
+				<div class="vertical-parent">
+					<div class="vertical-align">
+						<div class="frm-title ss-frm__title mb-0">
+							<% loop HeaderFooter %>
+							<img src="$HeaderLogo.URL" alt="Client Logo">
+							<% end_loop %>
 						</div>
 					</div>
-					<div class="frm-form__row cntctfrm__animate-info-right">
-						<textarea name="message" class="frm-form__input textarea" placeholder="Message"></textarea>
-					</div>
-					<div class="frm-desc frm-form__check-holder">
-						<label class="frm-check">
-							<input class="frm-form__check" type="checkbox" name="" required>
-					        <span class="frm-form__checkbox"></span>
-							I have read the data policy and can ensure that all information above are true
-						</label>
-					</div>
-				</form>
-			</div
-			><div class="ss-frm__col align-t">
-				
-				<div class="frm-title ss-frm__title">
-					<p>Button</p>
 				</div>
-				<div class="inlineBlock-parent">
-					<div>
-						<a href="#" class="btn align-c">Read more</a>
+			</div>
+
+			<div class="tab-content" id="v-pills-tabContent">
+				<div class="tab-pane inlineBlock-parent show active" id="colors" data-target="colors-tab">
+					<div class="ss-frm__col align-t width--65">
+						<div class="s-margin-b ss-frm__subtitle">
+							<p>STYLE GUIDE</p>
+						</div>
+						<div class="l-margin-b ss-frm__title">
+							<p>Color Palette</p>
+						</div>
+						<% include ssColor %>
+					</div
+					><div class="ss-frm__snippet width--35">
+						<div class="code--bg mb-3">
+							<h3 class="clr--primary">
+								Variables
+							</h3>
+							<code class="ss-snippet-block">
+								<small>// Primary</small>
+								<p>\$color--primary: #F5842A</p>
+								<br>
+								<small>// Neutral</small>
+								<p>\$color--white: #FFFFFF;</p>
+								<p>\$color--gray--400: #C4C4C4;</p>
+								<p>\$color--gray--500: #9C9C9C;</p>
+								<p>\$color--gray--700: #464646;</p>
+								<p>\$color--black: #191919;</p>
+							</code>
+							<br>
+							<br>
+							<h3 class="clr--primary">
+								Classes
+							</h3>
+							<code class="ss-snippet-block">
+								<small>// Primary</small>
+								<p>.clr--primary</p>
+								<p>.bg--primary</p>
+								<br>
+								<small>// Neutral</small>
+								<small>// White</small>
+								<p>.clr--white</p>
+								<p>.bg--white</p>
+								<br>
+								<small>// Gray 400</small>
+								<p>.clr--gray--400</p>
+								<p>.bg--gray--400</p>
+								<br>
+								<small>// Gray 500</small>
+								<p>.clr--gray--500</p>
+								<p>.bg--gray--500</p>
+								<br>
+								<small>// Gray 700</small>
+								<p>.clr--gray--700</p>
+								<p>.bg--gray--700</p>
+								<br>
+								<small>// Black</small>
+								<p>.clr--black</p>
+								<p>.bg--black</p>
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane" id="typography" data-target="typography-tab">
+					<div class="ss-frm__col align-t width--65">
+						<div class="l-margin-b ss-frm__title">
+							<p>Typography</p>
+						</div>
+						<% include ssTypography %>
+					</div
+					><div class="ss-frm__snippet width--35">
+						<div class="code--bg mb-3">
+							<h3 class="clr--primary">
+								Variables
+							</h3>
+							<code class="ss-snippet-block">
+								<small>//'Work Sans', sans-serif</small>
+								<p>\$font--main</p>
+								<br>
+								<small>//1rem | 16px | Default</small>
+								<p>\$font-size-default</p>
+								<br>
+								<small>//3rem | 36px | H2, Frame Title</small>
+								<p>\$font-size-largest</p>
+								<br>
+								<small>2.25rem | 36px | H2, Frame Title</small>
+								<p>\$font-size-larger</p>
+								<br>
+								<small>1.5625rem | 25px | H3, Label Title</small>
+								<p>\$font-size-large</p>
+								<br>
+								<small>1.25rem | 20px | H4, Label Title</small>
+								<p>\$font-size-medium</p>
+								<br>
+								<small>1rem | 16px | H5,</small>
+								<p>\$font-size-small</p>
+								<br>
+								<small>0.875rem | 14px | H6, Buttons, Navigation</small>
+								<p>\$font-size-smaller</p>
+								<br>
+								<small>0.8125rem | 13px | Small, Footer Title</small>
+								<p>\$font-size-smallest</p>
+								<br>
+								<small>0.75rem | 12px | Footer Text</small>
+								<p>\$font-size-12</p>
+								<br>
+								<small>0.625rem | 10px | Subtext</small>
+								<p>\$font-size-10</p>
+							</code>
+							<br>
+							<br>
+							<h3 class="clr--primary">
+								Classes
+							</h3>
+							<code class="ss-snippet-block">
+								<small>//'Work Sans', sans-serif</small>
+								<p>.font-1</p>
+								<br>
+								<small>//1rem | 16px | Default</small>
+								<p>.font--size--default</p>
+								<br>
+								<small>//3rem | 36px | H2, Frame Title</small>
+								<p>.font--size--largest</p>
+								<br>
+								<small>2.25rem | 36px | H2, Frame Title</small>
+								<p>.font--size--larger</p>
+								<br>
+								<small>1.5625rem | 25px | H3, Label Title</small>
+								<p>.font--size--large</p>
+								<br>
+								<small>1.25rem | 20px | H4, Label Title</small>
+								<p>.font--size--medium</p>
+								<br>
+								<small>1rem | 16px | H5,</small>
+								<p>.font--size--small</p>
+								<br>
+								<small>0.875rem | 14px | H6, Buttons, Navigation</small>
+								<p>.font--size--smaller</p>
+								<br>
+								<small>0.8125rem | 13px | Small, Footer Title</small>
+								<p>.font--size--smallest</p>
+								<br>
+								<small>0.75rem | 12px | Footer Text</small>
+								<p>.font--size--12</p>
+								<br>
+								<small>0.625rem | 10px | Subtext</small>
+								<p>.font--size--10</p>
+								<br>
+								<small>Font-weight : Normal</small>
+								<p>.font-weight--regular</p>
+								<br>
+								<small>Font-weight : Bold</small>
+								<p>.font-weight--bold</p>
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane" id="forms" data-target="forms-tab">
+					<div class="ss-frm__col align-t width--65">
+						<div class="l-margin-b ss-frm__title">
+							<p>Forms</p>
+						</div>
+						<% include ssForms %>
+					</div
+					><div class="ss-frm__snippet width--35">
+						
+					</div>
+				</div>
+				<div class="tab-pane" id="buttons" data-target="buttons-tab">
+					<div class="ss-frm__col align-t width--65">
+						<div class="l-margin-b ss-frm__title">
+							<p>Buttons</p>
+						</div>
+						<% include ssButtons %>
+					</div
+					><div class="ss-frm__snippet width--35">
+						
+					</div>
+				</div>
+				<div class="tab-pane" id="cards" data-target="cards-tab">
+					<div class="ss-frm__col align-t width--65">
+						<div class="l-margin-b ss-frm__title">
+							<p>Cards</p>
+						</div>
+						<% include ssCards %>
+					</div
+					><div class="ss-frm__snippet width--35">
+						
 					</div>
 				</div>
 			</div>

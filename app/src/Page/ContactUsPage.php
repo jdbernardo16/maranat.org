@@ -32,26 +32,33 @@ namespace {
 
 	use SilverStripe\Control\HTTPRequest;
 
-	class HomePage extends Page {
+	class ContactUsPage extends Page {
 
 		private static $db = [
-		
+
+			'Latitude' => 'Text',
+			'Longitude' => 'Text',
+
 			'EmailRecipient' => 'Text',
 		];
 
 		private static $has_one = [
+			'Pin' => Image::class,
+		];
 
+		private static $has_many = [
+			'ContactDetails' => ContactDetail::class,
 		];
 
 		private static $owns = [
-	
-	    ];
+			'Pin',
+		];
 
 		private static $allowed_children = "none";
 
 		private static $defaults = array(
-			'PageName' => 'Home Page',
-			'MenuTitle' => 'Home',
+			'PageName' => 'Contact Us Page',
+			'MenuTitle' => 'Contact Us',
 			'ShowInMenus' => true,
 			'ShowInSearch' => true,
 		);
@@ -63,26 +70,41 @@ namespace {
 			$fields->removeFieldFromTab('Root.Main', 'Content');
 			
 
-			/**
-			* EMAIL RECEIPIENT : Text Field
-			* - Flexibility purpose; to change email with ease.
-			*/
-			$fields->addFieldsToTab('Root.Email Recipient', array(
-				$desc = new TextField('EmailRecipient', 'Email Address'),
+			/*
+			|-----------------------------------------------
+			| @Frame 1
+			|----------------------------------------------- */
+			$fields->addFieldToTab('Root.Frame1', new TabSet('Frame1Sets',
+				new Tab('Details',
+					GridField::create('ContactDetails', 'Contact Details', 
+						$this->ContactDetails(), 
+					GridFieldConfig_RecordEditor::create(10)
+					->addComponent(new GridFieldSortableRows('SortOrder'))
+					)
+				)
 			));
 
+			$fields->addFieldToTab('Root.Map', new TabSet('Frame3Sets',
+				new Tab('Map',
+					TextField::create('Latitude', 'Latitude'),
+					TextField::create('Longitude', 'Longitude'),
+					$pin = UploadField::create('Pin','Map Pin')
+				)
+			));
+
+			$fields->addFieldToTab('Root.Email', TextField::create('EmailRecipient', 'Email Recipient'));
+
 			# SET FIELD DESCRIPTION 
-			// $uploadf->setDescription('Max file size: 2MB | Dimension: 1366px x 768px');
-			$desc->setDescription('Sample format: email@sample.com, email_2@sample.com');
+			$pin->setDescription('Max file size: 2MB | Dimension: 50px x 60px');
 			
 			# Set destination path for the uploaded images.
-			// $uploadf->setFolderName('homepage/frame-1');
+			$pin->setFolderName('ContactUsPage/icons');
 
 			return $fields;
 		}
 	}
 
-	class HomePageController extends PageController {
+	class ContactUsPageController extends PageController {
 		
 	}
 }
