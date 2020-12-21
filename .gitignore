@@ -16,6 +16,7 @@
 .env.example
 .htaccess
 README.md
+.cow/
 betterbuttons/
 composer.lock
 node_modules/
