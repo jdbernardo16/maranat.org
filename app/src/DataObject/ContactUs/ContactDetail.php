@@ -46,7 +46,7 @@ namespace {
             $fields->addFieldToTab('Root.Main', new TextField('DetailLinkMail', 'Mail Link'));
             $fields->addFieldToTab('Root.Main', new TextField('DetailLinkPhone', 'Phone Link'));
 
-            $fields->addFieldToTab('Root.Main', $upload_1 = new UploadField('DetailIcon', 'Social Media Icon'));
+            $fields->addFieldToTab('Root.Main', $upload_1 = new UploadField('DetailIcon', 'Icon'));
 
 
             $fields->removeByName('SortOrder');
