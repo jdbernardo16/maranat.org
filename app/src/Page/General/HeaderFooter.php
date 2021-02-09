@@ -40,8 +40,8 @@ namespace {
 		private static $db = [
 
 			// SEO
-            'SEO' => 'Text',
-            'Description' => 'Text',
+            'SeoKeywords' => 'Text',
+            'SeoDescription' => 'Text',
 
             // Twitter
             'TwitterUser' => 'Text',
@@ -86,8 +86,8 @@ namespace {
             */
             $fields->addFieldToTab('Root.Meta tags', new TabSet('MetaTagsSets',
                 new Tab('SEO',
-                    $desc = TextareaField::create('SEO', 'SEO Keywords'),
-                    TextareaField::create('Description', 'Site Description')
+                    $desc = TextareaField::create('SeoKeywords', 'SEO Keywords'),
+                    TextareaField::create('SeoDescription', 'Site Description')
                 ),
                 new Tab('Twitter',
                     $desc2 = TextField::create('TwitterUser', 'Twitter Username')

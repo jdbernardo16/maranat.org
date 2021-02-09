@@ -63,17 +63,17 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
         <!-- Slick -->
-        <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.slick/1.3.15/slick.css"/>
 
         <!-- Remodal -->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/remodal/1.0.6/remodal.css">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/remodal/1.0.6/remodal-default-theme.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.6/remodal.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.6/remodal-default-theme.min.css">
 
         <!-- Light Gallery -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.4/css/lightgallery.min.css">
         
         <!-- SweetAlert -->
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 
         <%-- Swiper --%>
         <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -155,22 +155,22 @@
         <script type="text/javascript" src="$ThemeDir/assets/app.js"></script>
         
         <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 
         <!-- Validate -->
-        <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.11.1/jquery.validate.min.js"></script>
 
         <!-- StickyFloat -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/stickyfloat/7.5.0/stickyfloat.js"></script>
 
         <!-- Slick -->
-        <script src="//cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
-        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
         <!-- Remodal -->
-        <script src="//cdnjs.cloudflare.com/ajax/libs/remodal/1.0.6/remodal.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/remodal/1.0.6/remodal.min.js"></script>
 
         <!-- SweetAlert -->
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
@@ -183,9 +183,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/MotionPathPlugin.min.js" integrity="sha512-2vgSeT4mD0azBGIp91Fnho9fbT8ZG8zu5c+mK//TGxj4YNX2mRAwEZHtZsMRwA7ObqH6Vl7mMOdvkzNVTuhUcA==" crossorigin="anonymous"></script>
 
         <!-- ScrollMagic -->
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
 
         <!-- HoverIntent -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.hoverintent/1.10.1/jquery.hoverIntent.min.js" integrity="sha512-gx3WTM6qxahpOC/hBNUvkdZARQ2ObXSp/m+jmsEN8ZNJPymj8/Jamf8+/3kJQY1RZA2DR+KQfT+b3JEB0r9YRg==" crossorigin="anonymous"></script>
