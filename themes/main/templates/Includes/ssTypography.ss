@@ -45,7 +45,7 @@
 		</div>
 		<div class="frm-desc">
 			<p>Work Sans</p>
-			<p class="color--gray">1.5625rem | 25px</p>
+			<p class="color--gray">1.5rem | 24px</p>
 		</div>
 	</div>
 	<div class="ss-frm__tp-col align-b m-margin-r">
@@ -97,19 +97,6 @@
 		</div>
 		<div class="frm-desc">
 			<p>Work Sans</p>
-			<p class="color--gray">0.8125rem | 13px</p>
-		</div>
-	</div>
-	<div class="ss-frm__tp-col align-b m-margin-r">
-		<div class="frm-title mb-0">
-			<div class="vertical-parent">
-				<div class="vertical-align align-b">
-					<p class="font-weight--bold font--size--12">12</p>
-				</div>
-			</div>
-		</div>
-		<div class="frm-desc">
-			<p>Work Sans</p>
 			<p class="color--gray">0.75rem | 12px</p>
 		</div>
 	</div>
@@ -117,7 +104,7 @@
 		<div class="frm-title mb-0">
 			<div class="vertical-parent">
 				<div class="vertical-align align-b">
-					<p class="font-weight--bold font--size--10">10</p>
+					<p class="font-weight--bold font-size--xx-small">10</p>
 				</div>
 			</div>
 		</div>

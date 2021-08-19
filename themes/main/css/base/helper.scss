@@ -181,3 +181,18 @@
         transform: translate(-50%, -50%);
     }
 }
+
+// Border Radius
+.border-radius-default { border-radius: $border-radius-default; }
+.border-radius-15 { border-radius: $border-radius-15; }
+.border-radius-10 { border-radius: $border-radius-10; }
+.border-radius-0 { border-radius: 0 !important; }
+
+// box shadows
+// .box-shadow--0 { box-shadow: unset; }
+.box-shadow-s { box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05); }
+.box-shadow-m { box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.1); }
+.box-shadow-l { box-shadow: 0px 20px 100px rgba(139, 139, 139, 0.1); }
+.box-shadow-xl { box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1); }
+
+.border-1 { border: 0.5px solid #f3f3f3; }

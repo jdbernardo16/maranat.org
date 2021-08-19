@@ -22,3 +22,12 @@ composer.lock
 node_modules/
 package-lock.json
 phpcs.xml.dist
+.cow.json
+.gitattributes
+.travis.yml
+CONTRIBUTING.md
+LICENSE
+behat.yml
+build.xml
+phpunit.xml.dist
+web.config

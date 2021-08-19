@@ -122,31 +122,28 @@
 								<p>\$font-size-default</p>
 								<br>
 								<small>//3rem | 36px | H2, Frame Title</small>
-								<p>\$font-size-largest</p>
+								<p>\$font-size-xxx-large</p>
 								<br>
 								<small>2.25rem | 36px | H2, Frame Title</small>
-								<p>\$font-size-larger</p>
+								<p>\$font-size-xx-large</p>
 								<br>
-								<small>1.5625rem | 25px | H3, Label Title</small>
-								<p>\$font-size-large</p>
+								<small>1.5rem | 24px | H3, Label Title</small>
+								<p>\$font-size-x-large</p>
 								<br>
 								<small>1.25rem | 20px | H4, Label Title</small>
-								<p>\$font-size-medium</p>
+								<p>\$font-size-large</p>
 								<br>
 								<small>1rem | 16px | H5,</small>
-								<p>\$font-size-small</p>
+								<p>\$font-size-medium</p>
 								<br>
 								<small>0.875rem | 14px | H6, Buttons, Navigation</small>
-								<p>\$font-size-smaller</p>
+								<p>\$font-size-small</p>
 								<br>
-								<small>0.8125rem | 13px | Small, Footer Title</small>
-								<p>\$font-size-smallest</p>
+								<small>0.75rem | 12px | Small, Footer Title</small>
+								<p>\$font-size-x-small</p>
 								<br>
-								<small>0.75rem | 12px | Footer Text</small>
-								<p>\$font-size-12</p>
-								<br>
-								<small>0.625rem | 10px | Subtext</small>
-								<p>\$font-size-10</p>
+								<small>0.625rem | 10px | Footer Text</small>
+								<p>\$font-size-xx-small</p>
 							</code>
 							<br>
 							<br>
@@ -158,40 +155,46 @@
 								<p>.font-1</p>
 								<br>
 								<small>//1rem | 16px | Default</small>
-								<p>.font--size--default</p>
+								<p>.font-size--default</p>
 								<br>
-								<small>//3rem | 36px | H2, Frame Title</small>
-								<p>.font--size--largest</p>
+								<small>//3rem | 48px | H1, Frame Title</small>
+								<p>.font-size--xxx-large</p>
 								<br>
 								<small>2.25rem | 36px | H2, Frame Title</small>
-								<p>.font--size--larger</p>
+								<p>.font-size--xx-large</p>
 								<br>
-								<small>1.5625rem | 25px | H3, Label Title</small>
-								<p>.font--size--large</p>
+								<small>1.5rem | 24px | H3, Label Title</small>
+								<p>.font-size--x-large</p>
 								<br>
 								<small>1.25rem | 20px | H4, Label Title</small>
-								<p>.font--size--medium</p>
+								<p>.font-size--large</p>
 								<br>
 								<small>1rem | 16px | H5,</small>
-								<p>.font--size--small</p>
+								<p>.font-size--medium</p>
 								<br>
 								<small>0.875rem | 14px | H6, Buttons, Navigation</small>
-								<p>.font--size--smaller</p>
+								<p>.font-size--small</p>
 								<br>
-								<small>0.8125rem | 13px | Small, Footer Title</small>
-								<p>.font--size--smallest</p>
+								<small>0.75rem | 12px | Small, Footer Title</small>
+								<p>.font-size--x-small</p>
 								<br>
-								<small>0.75rem | 12px | Footer Text</small>
-								<p>.font--size--12</p>
-								<br>
-								<small>0.625rem | 10px | Subtext</small>
-								<p>.font--size--10</p>
+								<small>0.625rem | 10px | Footer Text</small>
+								<p>.font-size--xx-small</p>
 								<br>
 								<small>Font-weight : Normal</small>
 								<p>.font-weight--regular</p>
 								<br>
+								<small>Font-weight : Medium</small>
+								<p>.font-weight--medium</p>
+								<br>
+								<small>Font-weight : Semi Bold</small>
+								<p>.font-weight--semibold</p>
+								<br>
 								<small>Font-weight : Bold</small>
 								<p>.font-weight--bold</p>
+								<br>
+								<small>Font-weight : Extra Bold</small>
+								<p>.font-weight--extrabold</p>
 							</code>
 						</div>
 					</div>
