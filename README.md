@@ -1,12 +1,12 @@
-# Silverstripe 4.8.0 Boilerplate
+# Silverstripe 4.9.0 Boilerplate
 
 Front-End Developers Silverstripe Template
 
-### How to install Silverstripe 4.8.0 boiler
+### How to install Silverstripe 4.9.0 boiler
 
 - go to `/var/www/html`
 - to create your project, type 
-  `composer create-project silverstripe/installer <project-name> 4.8.0`
+  `composer create-project silverstripe/installer <project-name> 4.9.0`
 - go to your project
 - type `sudo chown -R [laptop-name]:www-data .`
 - type `sudo chmod -R 775 .`
