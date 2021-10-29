@@ -12,7 +12,7 @@ module.exports = {
 
     output: {
         path: path.resolve(__dirname, 'themes/main/assets'),
-        filename: '[name].js',
+        filename: '[name].min.js',
         publicPath: 'themes/main/assets'
     },
 
@@ -71,7 +71,7 @@ module.exports = {
             names: ['vendor']
         }),
         new ExtractTextPlugin({
-            filename: '[name].css',
+            filename: '[name].min.css',
             disable: false,
             allChunks: true
         }),  

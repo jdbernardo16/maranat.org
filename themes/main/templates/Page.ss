@@ -81,7 +81,7 @@
         <%-- CSS --%>
         <%-- <link rel="stylesheet" href="$ThemeDir/js/vendor/chosen/chosen.css"> --%>
         <%-- <link rel="stylesheet" href="$ThemeDir/fonts/work-sans/stylesheet.css"> --%>
-        <link rel="stylesheet" href="$ThemeDir/assets/app.css">
+        <link rel="stylesheet" href="$ThemeDir/assets/app.min.css">
         
         <!--[if lt IE 9]>
         <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -151,8 +151,9 @@
         <%--  --%>
 
         <!-- Script -->
-        <script type="text/javascript" src="$ThemeDir/assets/vendor.js"></script>
-        <script type="text/javascript" src="$ThemeDir/assets/app.js"></script>
+        <script type="text/javascript" src="$ThemeDir/assets/vendor.min.js"></script>
+        <script type="text/javascript" src="$ThemeDir/assets/app.min.js"></script>
+
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -227,11 +228,5 @@
 
         <%-- Swiper --%>
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        
-        <!-- Script --> 
-        <script type="text/javascript" src="$ThemeDir/js/script.js"></script>
-        <script type="text/javascript" src="$ThemeDir/js/animation.js"></script>
-        
-
     </body>
 </html>

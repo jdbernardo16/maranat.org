@@ -7,6 +7,16 @@ global.$ = global.jQuery = require('jquery');
 import $ from 'jquery';
 /*
 |-----------------------------------------------
+| @Scripts
+|-----------------------------------------------
+*/
+import './js/animation.js';
+// import './js/storelocator.js';
+import './js/script.js';
+
+
+/*
+|-----------------------------------------------
 | @Styles
 |-----------------------------------------------
 */
