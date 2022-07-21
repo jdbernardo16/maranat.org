@@ -145,7 +145,8 @@ a {
 .font-weight--extrabold { font-weight: 800; }
 
 // Font-Fammily
-.font-1 { font-family: $font--main; }
+.font-main { font-family: $font--main; }
+.font-secondary { font-family: $font--secondary; }
 
 // Font style
 

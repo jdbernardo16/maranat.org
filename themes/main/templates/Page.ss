@@ -76,11 +76,13 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
 
         <%-- Swiper --%>
-        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
 
         <%-- CSS --%>
         <%-- <link rel="stylesheet" href="$ThemeDir/js/vendor/chosen/chosen.css"> --%>
-        <%-- <link rel="stylesheet" href="$ThemeDir/fonts/work-sans/stylesheet.css"> --%>
+        <link rel="stylesheet" href="$ThemeDir/fonts/rowdies/stylesheet.css">
+        <link rel="stylesheet" href="$ThemeDir/fonts/poppins/stylesheet.css">
+        <link rel="stylesheet" href="$ThemeDir/assets/output.css">
         <link rel="stylesheet" href="$ThemeDir/assets/app.min.css">
         
         <!--[if lt IE 9]>
@@ -88,7 +90,7 @@
         <![endif]-->
 
     </head>
-    <body class="">
+    <body class="scroll-custom">
         <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -227,6 +229,6 @@
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lg-video@1.2.2/dist/lg-video.min.js"></script>
 
         <%-- Swiper --%>
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     </body>
 </html>

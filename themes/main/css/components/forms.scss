@@ -167,3 +167,34 @@ label.error {
 	font-size: 0.85em;
 	margin-top: 2px;
 }
+
+.frm-input {
+	label {
+		width: 100%;
+		font-size: 21px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+
+	input {
+		width: 100%;
+		font-size: 21px;
+		background: white;
+		padding: 10px 20px;
+		border-radius: 100px;
+		color: black;
+		box-sizing: border-box;
+	}
+
+	textarea {
+		width: 100%;
+		font-size: 21px;
+		background: white;
+		padding: 10px 20px;
+		border-radius: 30px;
+		height: 200px;
+		color: black;
+		resize: none;
+		box-sizing: border-box;
+	}
+}
