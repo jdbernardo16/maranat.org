@@ -1,21 +1,19 @@
 <section class="hm-frame1">
-	<img class="w-full h-full object-cover absolute top-0 left-0" src="$ThemeDir/images/hmf1.png" alt="">
+	<img class="w-full h-full object-cover absolute top-0 left-0" src="$F1BG.URL" alt="">
 	<div class="overlay"></div>
 	<div class="frm-cntnr">
 		<div class="hm-frame1__content max-w-full lg:max-w-[1000px]">
 			<div class="header mb-5">
 				<h1 class="text-white font-main font-black text-3xl lg:text-7xl lg:leading-[90px] tracking-widest">
-					Protect The Forest, <br>
-					Save The Future
+					$F1Header
 				</h1>		
 			</div>
 			<div class="desc mb-10">
-				<p class="text-white text-base lg:text-2xl tracking-widest">Maranat Environmental Society Inc., A group that protect, <br>
-				and conserve the environment located at Norzagaray, Bulacan.</p>
+				<p class="text-white text-base lg:text-2xl tracking-widest">$F1Desc</p>
 			</div>
-			<div class="hm-frame1__btn">
-				<a href="">
-					<button class="btn btn-primary">Learn More</button>
+			<div class="hm-frame1__btn w-fit">
+				<a href="$F1BtnLink">
+					<button class="btn btn-primary">$F1BtnText</button>
 				</a>
 			</div>
 		</div>
@@ -26,26 +24,24 @@
 	<div class="frm-cntnr px-4 lg:px-[94px] py-[106px] flex gap-10 items-center lg:flex-row flex-col">
 		<div class="w-full lg:w-[560px]">
 			<div class="header mb-4">
-				<h1 class="text-5xl font-extrabold text-white tracking-widest">We Plant Trees</h1>
+				<h1 class="text-5xl font-extrabold text-white tracking-widest">$F2Header</h1>
 			</div>
 			<div class="desc lg:max-w-[560px] mb-[57px]">
-				<p class="text-white text-lg tracking-widest">Planting trees is one of the most essential factors
-	on saving the environment. It cleans up the air, and
-	also gives fresh drinking water</p>
+				<p class="text-white text-lg tracking-widest">$F2Desc</p>
 			</div>
 			<div class="mb-[57px]">
 				<div class="hm-frame2__item1 flex gap-8 items-center py-[18px] px-[40px] bg-white mb-6 justify-center">
 					<img src="$ThemeDir/images/planted.png" alt="">
-					<p class="text-base lg:text-2xl text-[#7EBC37] tracking-widest">13,349 Trees Planted</p>
+					<p class="text-base lg:text-2xl text-[#7EBC37] tracking-widest">$F2Count1 $F2CountDesc1</p>
 				</div>
 				<div class="hm-frame2__item2 flex gap-8 items-center py-[18px] px-[40px] bg-white justify-center">
 					<img src="$ThemeDir/images/volunteer.png" alt="">
-					<p class="text-base lg:text-2xl text-[#FFD957] tracking-widest">523 Volunteers</p>
+					<p class="text-base lg:text-2xl text-[#FFD957] tracking-widest">$F2Count2 $F2CountDesc2</p>
 				</div>
 			</div>
 			<div class="button w-fit m-auto">
-				<a href="">
-					<button class="btn">Learn More</button>
+				<a href="$F2BtnLink">
+					<button class="btn">$F2BtnText</button>
 				</a>
 			</div>
 		</div>
@@ -57,16 +53,14 @@
 
 <section class="hm-frame3">
 	<div class="hm-frame3__bg">
-		<img src="$ThemeDir/images/hmf3.png" alt="">
+		<img src="$F3BG.URL" alt="">
 	</div>
 	<div class="frm-cntnr max-w-[1366px] text-center text-white px-4 lg:px-[94px] py-20">
 		<div class="header mb-6">
-			<h1 class="text-3xl lg:text-7xl tracking-widest font-extrabold">Who We Are</h1>
+			<h1 class="text-3xl lg:text-7xl tracking-widest font-extrabold">$F3Header</h1>
 		</div>
 		<div class="desc max-w-[1231px] m-auto mb-16">
-			<p class="text-base lg:text-2xl">Maranat Environmental Society Inc. is a non-profit organization founded on
-February 5, 2016, that aims to restore the denuded forest and advocate environmental
-awareness among local communities for the benefit of all life on Earth.</p>
+			<p class="text-base lg:text-2xl">$F3Desc</p>
 		</div>
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-16 mb-20">
 			<div class="hm-frame3__img">
@@ -83,8 +77,8 @@ awareness among local communities for the benefit of all life on Earth.</p>
 			</div>
 		</div>
 		<div class="button w-fit m-auto">
-			<a href="">
-				<button class="btn">Learn More</button>
+			<a href="$F3BtnLink">
+				<button class="btn">$F3BtnText</button>
 			</a>
 		</div>
 	</div>
@@ -136,7 +130,7 @@ awareness among local communities for the benefit of all life on Earth.</p>
 <section class="hm-frame5 bg-[#FFD957]">
 	<div class="frm-cntnr max-w-[1366px] px-4 lg:px-[94px] py-20 pt-0 lg:py-[100px]">
 		<div class="header text-white mb-10 lg:mb-20 text-center">
-			<h1 class="text-3xl lg:text-5xl font-bold">Latest News & Update</h1>
+			<h1 class="text-3xl lg:text-5xl font-bold">$F5Header</h1>
 		</div>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
 			<div class="news-card">
@@ -185,13 +179,13 @@ awareness among local communities for the benefit of all life on Earth.</p>
 	</div>
 </section>
 <section class="hm-frame6">
-	<img class="overlay-bg" src="$ThemeDir/images/contact-bg.png" alt="">
+	<img class="overlay-bg" src="$F6BG.URL" alt="">
 	<div class="frm-cntnr max-w-[1366px] px-4 lg:px-[94px] py-20">
 		<div class="flex gap-10 justify-between flex-col lg:flex-row">
 			<div class="contact-form text-white max-w-full lg:max-w-[543px]">
 				<div class="header mb-10 lg:mb-0">
-					<p class="text-lg lg:text-[32px] font-bold tracking-widest mb-5">Do You Want To Contribute?</p>
-					<p class="text-3xl lg:text-[54px] font-bold tracking-widest mb-10">Connect With Us</p>
+					<p class="text-lg lg:text-[32px] font-bold tracking-widest mb-5">$F6Header</p>
+					<p class="text-3xl lg:text-[54px] font-bold tracking-widest mb-10">$F6Desc</p>
 				</div>
 				<form action="">
 					<div class="flex flex-col gap-6">
