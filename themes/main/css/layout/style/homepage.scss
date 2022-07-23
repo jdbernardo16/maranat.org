@@ -1,0 +1,157 @@
+/*
+* Home Page
+* hm : homepage
+*/
+.hm-frame1 {
+	position: relative;
+	height: 100vh;
+
+	.overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.18);
+	}
+
+	.frm-cntnr {
+		max-width: 1366px;
+		position: relative;
+		height: 100%;
+	}
+
+	.hm-frame1__content {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 94px;
+	}
+}
+
+.hm-frame2 {
+	position: relative;
+	width: 100%;
+	.bg-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.frm-cntnr {
+		max-width: 1366px;
+	}
+
+	.hm-frame2__item1 {
+		border: 5px solid #65B331;
+		border-radius: 180px;
+		width: 550px;
+	}
+
+	.hm-frame2__item2 {
+		border: 5px solid #FFD957;
+		border-radius: 180px;
+		width: 550px;
+	}
+
+	.tree {
+		width: calc(100% - 600px);
+	}
+}
+
+.hm-frame3 {
+	position: relative;
+	.hm-frame3__bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+
+	.hm-frame3__img {
+		position: relative;
+		padding-top: 100%;
+		border: 5px solid white;
+		overflow: hidden;
+		border-radius: 10px;
+		img {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit:cover;
+		}
+	}
+}
+
+.hm-frame4 {
+	background: linear-gradient(195.35deg, rgba(255, 255, 255, 0) 32.62%, #FFD957 80.06%);
+	.content-img {
+		position: relative;
+		.wrapper {
+			position: relative;
+			width: 100%;
+			padding-top: 100%;
+			overflow: hidden;
+			border-radius: 20px;
+		}
+	}
+}
+
+.hm-frame5 {
+	.news-card {
+		position: relative;
+		.news-img {
+			position: relative;
+			width: 100%;
+			padding-top: 70%;
+
+		}
+	}
+}
+
+.hm-frame6 {
+	position: relative;
+	.overlay-bg {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+}
+
+
+@media screen and (max-width: 1024px) {
+	.hm-frame1 .hm-frame1__content {
+		left: 16px;
+		width: calc(100% - 32px);
+	}
+
+	.hm-frame2 .hm-frame2__item1 {
+		width: 100%;
+		img {
+			width: 40px;
+		}
+	}
+
+	.hm-frame2 .hm-frame2__item2 {
+		width: 100%;
+		img {
+			width: 40px;
+		}
+	}
+
+	.hm-frame2 .tree {
+		width: 100%;
+	}
+}
