@@ -35,15 +35,17 @@ namespace {
 	class News extends Page {
 
 		private static $db = [
-		
+			'Date' => 'Date',
+			'Excerpt' => 'Text',
+			'Desc' => 'HTMLText',
 		];
 
 		private static $has_one = [
-
+			'IMG' => Image::class,
 		];
 
 		private static $owns = [
-	
+			'IMG'
 	    ];
 
 		private static $allowed_children = "none";
@@ -60,6 +62,17 @@ namespace {
 
 			#Remove by tab
 			$fields->removeFieldFromTab('Root.Main', 'Content');
+
+			/*
+			|-----------------------------------------------
+			| @Frame1
+			|----------------------------------------------- */
+			$fields->addFieldsToTab('Root.Details.Main', array(
+				$upload = UploadField::create('IMG','Image'),
+				new DateField('Date', 'Date'),
+				new TextareaField('Excerpt', 'Excerpt'),
+				new HTMLEditorField('Desc', 'Description'),
+			));
 
 
 			# SET FIELD DESCRIPTION 

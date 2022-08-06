@@ -1,6 +1,7 @@
     <section class="nws-frame1">
+        <% loop $Children.limit(1) %>
         <div class="nws-bg">
-            <img src="$ThemeDir/images/news2.png" alt="">
+            <img src="$IMG.URL" alt="">
             <div class="overlay"></div>
         </div>
         <div class="nws-frame1__content">
@@ -8,22 +9,21 @@
                 <div class="nws-details max-w-[560px]">
                     <div class="nws-date mb-1">
                         <p class="text-white grow-up">
-                            Feb 16, 1997
+                            $Date.Month $Date.Format('dd'), $Date.Year
                         </p>
                     </div>
                     <div class="nws-title mb-6">
                         <h3 class="text-white font-semibold grow-up text-4xl tracking-widest">
-                            Maligayang Kaarawan sa ating "Tatay Nestor"
+                            $Title
                         </h3>
                     </div>
                     <div class="nws-excerpt mb-10 text-white font--18 grow-up">
                         <p class="text-white font--18 grow-up lineclamp-2">
-                           Maligayang Kaarawan sa ating "Tatay Nestor" na walang sawa sa pagbabahagi kung ano ang tunay kahalagahan ng ating kalikasan.
-Happy Birthday, Maligayang Bati, Maligayang Kaarawan, Tatay Nestor!
+                           $Excerpt
                         </p>
                     </div>
                     <div class="nws-btn grow-up">
-                        <a href="">
+                        <a href="$Link">
                             <button class="btn btn-outline-primary">
                                 Read More
                             </button>
@@ -32,6 +32,7 @@ Happy Birthday, Maligayang Bati, Maligayang Kaarawan, Tatay Nestor!
                 </div>
             </div>
         </div>
+        <% end_loop %>
     </section>
 
     <section class="nws-frame2">
@@ -42,99 +43,26 @@ Happy Birthday, Maligayang Bati, Maligayang Kaarawan, Tatay Nestor!
                 </h3>
             </div>
             <div class="nws-wrapper flex flex-col gap-20">
-                <a href="/news-and-updates/selected">
+                <% loop $Children.limit(999, 1) %>
+                <a href="$Link">
                     <div class="news-card">
                         <div class="news-bg">
-                            <img src="$ThemeDir/images/news2.png" alt="">
+                            <img src="$IMG.URL" alt="">
                             <div class="overlay"></div>
                         </div>
                         <div class="news-detail">
                             <div class="news-detail__wrapper">
                                 <div class="nws-date">
-                                    <p class="font--14 text-white">May 31, 2022</p>
+                                    <p class="font--14 text-white">$Date.Month $Date.Format('dd'), $Date.Year</p>
                                 </div>
                                 <div class="nws-title">
-                                    <p class="text-white font-semibold">Volutpat eleifend risus sem at etiam fames.
+                                    <p class="text-white font-semibold">$Excerpt
                                     </p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </a>
-                <a href="/news-and-updates/selected">
-                    <div class="news-card">
-                        <div class="news-bg">
-                            <img src="$ThemeDir/images/news1.png" alt="">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="news-detail">
-                            <div class="news-detail__wrapper">
-                                <div class="nws-date">
-                                    <p class="font--14 text-white">May 31, 2022</p>
-                                </div>
-                                <div class="nws-title">
-                                    <p class="text-white font-semibold">Volutpat eleifend risus sem at etiam
-                                        fames.Volutpat eleifend risus sem at etiam fames.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="/news-and-updates/selected">
-                    <div class="news-card">
-                        <div class="news-bg">
-                            <img src="$ThemeDir/images/news3.png" alt="">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="news-detail">
-                            <div class="news-detail__wrapper">
-                                <div class="nws-date">
-                                    <p class="font--14 text-white">May 31, 2022</p>
-                                </div>
-                                <div class="nws-title">
-                                    <p class="text-white font-semibold">Volutpat eleifend risus sem at etiam fames.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="/news-and-updates/selected">
-                    <div class="news-card">
-                        <div class="news-bg">
-                            <img src="$ThemeDir/images/news1.png" alt="">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="news-detail">
-                            <div class="news-detail__wrapper">
-                                <div class="nws-date">
-                                    <p class="font--14 text-white">May 31, 2022</p>
-                                </div>
-                                <div class="nws-title">
-                                    <p class="text-white font-semibold">Volutpat eleifend risus sem at etiam fames.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-                <a href="/news-and-updates/selected">
-                    <div class="news-card">
-                        <div class="news-bg">
-                            <img src="$ThemeDir/images/news1.png" alt="">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="news-detail">
-                            <div class="news-detail__wrapper">
-                                <div class="nws-date">
-                                    <p class="font--14 text-white">May 31, 2022</p>
-                                </div>
-                                <div class="nws-title">
-                                    <p class="text-white font-semibold">Blog Article Title</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
+                <% end_loop %>
             </div>
     </section>

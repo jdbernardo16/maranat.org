@@ -31,5 +31,17 @@ namespace {
             // See: https://docs.silverstripe.org/en/developer_guides/templates/requirements/
             // Requirements::themedCSS("assets/app");
         }
+
+        public function getHeaderFooter() {
+            return HeaderFooter::get();
+        }
+
+        public function getNewsPage() {
+            return NewsPage::get();
+        }
+
+        public function getAboutPage() {
+            return AboutPage::get();
+        }
     }
 }

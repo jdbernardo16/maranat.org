@@ -83,43 +83,42 @@
 		</div>
 	</div>
 </section>
+<% loop $AboutPage %>
 <section class="hm-frame4">
-	<div class="frm-cntnr max-w-[1366px] px-4 lg:px-[94px] py-20 lg:py-[120px] flex flex-col gap-[100px]">
+	<div class="frm-cntnr max-w-[1366px] px-4 lg:px-[94px] py-20 pt-0 lg:py-[120px] flex flex-col gap-[100px]">
 		<div class="flex gap-10 items-center justify-between flex-col lg:flex-row">
 			<div class="content max-w-full lg:max-w-[496px]">
 				<div class="flex gap-6 items-center justify-center lg:justify-start mb-6">
-					<img class="w-[50px] h-[50px] md:w-[100px] md:h-[100px] object-cover" src="$ThemeDir/images/icon1.png" alt="">
-					<h2 class="text-2xl lg:text-6xl font-bold">Vision</h2>
+					<img class="w-[50px] h-[50px] md:w-[100px] md:h-[100px] object-cover" src="$VisionIcon.URL" alt="">
+					<h2 class="text-2xl lg:text-6xl font-bold">$VisionText</h2>
 				</div>
-				<div class="desc mb-16 text-center lg:text-left">
+				<div class="desc mb-16 lg:text-left">
 					<p class="text-base lg:text-3xl">
-						We envision a sustainable forest of
-						rich biodiversity for future generation.
+						$VisionDesc
 					</p>
 				</div>
 				<div class="border-bottom w-1/2 h-6 bg--primary m-auto"></div>
 			</div>
 			<div class="content-img max-w-[550px] w-full">
 				<div class="wrapper w-full">
-					<img class="w-full h-full absolute top-0 left-0" src="$ThemeDir/images/vision.png" alt="">
+					<img class="w-full h-full absolute top-0 left-0" src="$VisionImage.URL" alt="">
 				</div>
 			</div>
 		</div>
 		<div class="flex gap-10 items-center justify-between flex-col lg:flex-row">
 			<div class="content-img max-w-[550px] w-full lg:order-1 order-2">
 				<div class="wrapper w-full">
-					<img class="w-full h-full absolute top-0 left-0" src="$ThemeDir/images/mission.png" alt="">
+					<img class="w-full h-full absolute top-0 left-0" src="$MissionImage.URL" alt="">
 				</div>
 			</div>
 			<div class="content max-w-full lg:max-w-[496px] order-1 lg:order-2">
 				<div class="flex gap-6 items-center justify-center lg:justify-end mb-6">
-					<h2 class="text-2xl lg:text-6xl font-bold">Mission</h2>
-					<img class="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" src="$ThemeDir/images/icon1.png" alt="">
+					<h2 class="text-2xl lg:text-6xl font-bold">$MissionText</h2>
+					<img class="w-[50px] h-[50px] md:w-[100px] md:h-[100px]" src="$MissionIcon.URL" alt="">
 				</div>
-				<div class="desc mb-16 text-center lg:text-right">
+				<div class="desc mb-16 lg:text-right">
 					<p class="text-base lg:text-3xl">
-						To preserve the forest for the benefit
-						of the present and future generation.
+						$MissionDesc
 					</p>
 				</div>
 				<div class="border-bottom w-1/2 h-6 bg--primary m-auto"></div>
@@ -127,54 +126,30 @@
 		</div>
 	</div>
 </section>
+<% end_loop %>
 <section class="hm-frame5 bg-[#FFD957]">
 	<div class="frm-cntnr max-w-[1366px] px-4 lg:px-[94px] py-20 pt-0 lg:py-[100px]">
 		<div class="header text-white mb-10 lg:mb-20 text-center">
 			<h1 class="text-3xl lg:text-5xl font-bold">$F5Header</h1>
 		</div>
 		<div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
-			<div class="news-card">
-				<div class="news-img mb-6 overflow-hidden rounded-2xl">
-					<img class="w-full h-full absolute top-0 left-0" src="$ThemeDir/images/news1.png" alt="">
+			<% loop $NewsPage %>
+			<% loop $Children.limit(3) %>
+			    <div class="news-card">
+					<div class="news-img mb-6 overflow-hidden rounded-2xl">
+						<img class="w-full h-full absolute top-0 left-0 object-cover" src="$IMG.URL" alt="">
+					</div>
+					<div class="news-title mb-6">
+						<h3 class="text-lg lg:text-2xl font-bold lineclamp-2">
+							$Title
+						</h3>
+					</div>
+					<div class="read-more w-full flex justify-end">
+						<a class="text-lg text-[#CA3105] flex items-center gap-2" href="$Link">Read More <img src="$ThemeDir/images/right-arrow.png" alt=""></a>
+					</div>
 				</div>
-				<div class="news-title mb-6">
-					<h3 class="text-lg lg:text-2xl font-bold lineclamp-2">
-						Thank you for your helping 
-						hands, that you contribute to restore our mother nature.
-					</h3>
-				</div>
-				<div class="read-more w-full flex justify-end">
-					<a class="text-lg text-[#CA3105] flex items-center gap-2" href="">Read More <img src="$ThemeDir/images/right-arrow.png" alt=""></a>
-				</div>
-			</div>
-						<div class="news-card">
-				<div class="news-img mb-6 overflow-hidden rounded-2xl">
-					<img class="w-full h-full absolute top-0 left-0" src="$ThemeDir/images/news2.png" alt="">
-				</div>
-				<div class="news-title mb-6">
-					<h3 class="text-lg lg:text-2xl font-bold lineclamp-2">
-						Happy Birthday tatay nestor,
-						Ama ng adbokasiyang maranat. Tunay ngang ikaw ay isang inspirasyon
-					</h3>
-				</div>
-				<div class="read-more w-full flex justify-end">
-					<a class="text-lg text-[#CA3105] flex items-center gap-2" href="">Read More <img src="$ThemeDir/images/right-arrow.png" alt=""></a>
-				</div>
-			</div>
-						<div class="news-card">
-				<div class="news-img mb-6 overflow-hidden rounded-2xl">
-					<img class="w-full h-full absolute top-0 left-0" src="$ThemeDir/images/news3.png" alt="">
-				</div>
-				<div class="news-title mb-6">
-					<h3 class="text-lg lg:text-2xl font-bold lineclamp-2">
-						Due to covid, the water is 
-						way cleaner than before. It is also the way of nature to heal itself.
-					</h3>
-				</div>
-				<div class="read-more w-full flex justify-end">
-					<a class="text-lg text-[#CA3105] flex items-center gap-2" href="">Read More <img src="$ThemeDir/images/right-arrow.png" alt=""></a>
-				</div>
-			</div>
+			<% end_loop %>
+			<% end_loop %>
 		</div>
 	</div>
 </section>
