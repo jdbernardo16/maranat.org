@@ -1,0 +1,94 @@
+/** 
+ * Button
+ * btn : button
+ */
+.btn {
+	position: relative;
+	display: block;
+	line-height: 30px;
+	padding: 21px 38px;
+	cursor: pointer;
+	box-sizing: border-box;
+	border-radius: 78px;
+	background: $color--primary;
+	text-align: center;
+	font-size: 22px;
+	color: $color--white;
+	@extend %overflow-hidden;
+	@extend %trans-ease;
+
+	&.green {
+		background: #76B82A;
+
+		&:hover {
+			background: #76b82a8f;
+		}
+
+	}
+
+	&.btn-link {
+		span {
+			transform: translateY(9px);
+		}
+	}
+
+	span {
+		position: relative;
+		z-index: 4;
+		display: block;
+		color: $color--white;
+		font-size: $font-size-small;
+		font-family: $font--main;
+		@extend %trans-ease;
+		transition-delay: 0.15s;
+	}
+
+	&:hover, &.active {
+		
+		background: #fc871b87;
+		
+		span {
+			color: $color--primary;
+		}
+	}
+
+	&.outlined {
+		background: $color--white;
+
+		&::before, &::after {
+			background: $color--primary;
+		}
+
+		span {
+			color: $color--primary;
+		}
+
+		&:hover {
+
+			span {
+				color: $color--white;
+			}
+		}
+	}
+
+	&.align-c {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	&.align-r {
+		margin-left: auto;
+		margin-right: 0;
+	}
+
+	&.d-inline-block {
+		display: inline-block;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.btn {
+		font-size: 16px;
+		padding: 16px 24px;
+	}
+}
